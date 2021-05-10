@@ -1,0 +1,33 @@
+{
+	"name": "postcss-prepend",
+	"version": "0.1.0",
+	"description": "A postcss plugin for prepending CSS selectors.",
+	"author": "leeshadle",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"postcss",
+		"plugin"
+	],
+	"homepage": "https://github.com/blockhandbook/postcss-prepend",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/blockhandbook/postcss-prepend.git"
+	},
+	"bugs": {
+		"url": "https://github.com/blockhandbook/postcss-prepend"
+	},
+	"main": "index.js",
+	"scripts": {
+		"lerna:version": "lerna version",
+		"lerna:publish": "lerna publish"
+	},
+	"dependencies": {
+		"postcss": "^8.2.2"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"lerna": "^4.0.0"
+	}
+}
